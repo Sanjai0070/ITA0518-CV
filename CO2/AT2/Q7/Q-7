@@ -1,0 +1,45 @@
+ COMPUTER VISION
+                                   │
+        ┌──────────────────────────┼──────────────────────────┐
+        │                          │                          │
+  Low-Level Vision           Mid-Level Vision         High-Level Vision
+        │                          │                          │
+        │                          │                          │
+Image Acquisition          Image Analysis         Scene Understanding
+        │                          │                          │
+ ┌──────┼───────┐         ┌────────┼────────┐        ┌────────┼─────────┐
+ │      │       │         │        │        │        │        │         │
+Sampling Quantization Enhancement Segmentation Feature  Recognition Decision
+        │                  │          │        Extraction      Making
+        │                  │          │           │
+ Noise Removal        Contrast     Object      Edges
+ Filtering            Adjustment   Detection   Corners
+ Histogram Equalization             Region      Texture
+                                   Analysis     Shape
+        │                          │            │
+        └──────────────────────────┼────────────┘
+                                   │
+                         Feature Representation
+                                   │
+                 ┌─────────────────┼─────────────────┐
+                 │                 │                 │
+          Machine Learning    Deep Learning     Pattern Recognition
+                 │                 │                 │
+                 └─────────────────┼─────────────────┘
+                                   │
+                        High-Level Interpretation
+                                   │
+          ┌────────────────────────┼────────────────────────┐
+          │                        │                        │
+   Image Classification     Object Recognition      Scene Understanding
+          │                        │                        │
+          └────────────────────────┼────────────────────────┘
+                                   │
+                           Vision-Based Applications
+                                   │
+ ┌─────────────────────────────────┼──────────────────────────────────┐
+ │                                 │                                  │
+Face Recognition            Medical Diagnosis            Autonomous Driving
+Industrial Inspection       Robotics                     Smart Surveillance
+                                   │
+                           Meaningful Decision
